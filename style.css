@@ -1,0 +1,207 @@
+body {
+  /* background-color: skyblue; */
+  background-image: url(img/bggg.jpeg);
+  background-blend-mode: soft-light;
+  /* height: 500px; */
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  color: #fff;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.BfreeLogo {
+  /* display: flexbox; */
+  /* background-color: skyblue; */
+  width: auto;
+  /* height: 40px; */
+  padding: 20px;
+}
+
+.overall {
+  /* background-color: rgb(255, 255, 255); */
+  /* border-radius: 20px; */
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  top: 12%;
+  left: 36%;
+  position: absolute;
+  /* background: rgba(255, 255, 255, 0.309); */
+  /* width: auto;
+  height: auto;
+  align-items: center; */
+}
+
+p,
+h2 {
+  /* font-family: Arial, Helvetica, sans-serif; */
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin-top: 20px;
+}
+
+.formArea {
+  /* font-family: Arial, Helvetica, sans-serif; */
+  color: #090808;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+/* .Parent {
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  background-size: cover;
+  top: 30%;
+  left: 37%;
+  position: absolute;
+  width: auto;
+  height: auto;
+  align-items: center;
+} */
+
+form {
+  /* font-family: Arial, Helvetica, sans-serif; */
+  width: 450px;
+
+  /* position: relative; */
+}
+
+form .form-field::before {
+  font-size: 30px;
+  position: absolute;
+  left: 15px;
+  top: 16px;
+  color: #ffffff;
+  content: " ";
+  display: block;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+form label {
+  /* font-family: "Lato", sans-serif; */
+  font-size: 30px;
+  color: rgb(0, 5, 10);
+}
+form .form-field:nth-child(1)::before {
+  background-image: url(https://api.iconify.design/gg:profile.svg?color=%23ffffff);
+  width: 23px;
+  height: 23px;
+  top: 12px;
+  left: 10px;
+}
+form .form-field:nth-child(2)::before {
+  background-image: url(https://api.iconify.design/ph:suitcase-simple-bold.svg?color=%23ffffff);
+  width: 23px;
+  height: 23px;
+  top: 12px;
+  left: 10px;
+}
+
+form .form-field:nth-child(3)::before {
+  background-image: url(https://api.iconify.design/mdi:email-open.svg?color=%23ffffff);
+  width: 23px;
+  height: 23px;
+  top: 12px;
+  left: 10px;
+}
+
+form .form-field:nth-child(4)::before {
+  background-image: url(https://api.iconify.design/ph:identification-badge-bold.svg?color=%23ffffff);
+  width: 23px;
+  height: 23px;
+  top: 12px;
+  left: 10px;
+}
+
+form .form-field:nth-child(5)::before {
+  background-image: url(https://api.iconify.design/uil:lock-alt.svg?color=%23ffffff);
+  width: 23px;
+  height: 23px;
+  top: 12px;
+  left: 10px;
+}
+
+form .form-field:nth-child(6)::before {
+  background-image: url(https://api.iconify.design/uil:lock-alt.svg?color=%23ffffff);
+  width: 23px;
+  height: 23px;
+  top: 12px;
+  left: 10px;
+}
+
+form .form-field {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+  position: relative;
+}
+
+input:-webkit-autofill {
+  box-shadow: 0 0 0 50px rgb(50, 94, 153) inset; /* Change the color to your own background color */
+  -webkit-text-fill-color: rgb(255, 255, 255);
+}
+
+form input {
+  font-family: inherit;
+  width: 100%;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  border-color: skyblue;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  background-color: rgb(50, 94, 153);
+  display: block;
+  padding: 15px 25px;
+  /* box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.501); */
+  font-size: 13px;
+  color: #ffffff;
+  text-indent: 30px;
+}
+
+::placeholder {
+  /* font-family: Arial, Helvetica, sans-serif; */
+  color: white;
+}
+
+form .btn {
+  /* font-family: Arial, Helvetica, sans-serif; */
+  outline: none;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  margin: 0 auto;
+  padding: 0.9rem 2.5rem;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 15px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(32, 188, 250);
+  border-radius: 8px;
+  /* box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.337); */
+  font-size: 16px;
+}
+
+.AlreadyReg {
+  /* font-family: Arial, Helvetica, sans-serif; */
+  width: 350px;
+  margin: 0 auto;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 0;
+  font-size: 15px;
+}
+.btn a {
+  color: rgb(60, 151, 187);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.AlreadyReg a {
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  text-decoration: none;
+}
