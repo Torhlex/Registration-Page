@@ -141,7 +141,7 @@ form .form-field {
 }
 
 input:-webkit-autofill {
-  box-shadow: 0 0 0 50px rgb(50, 94, 153) inset; /* Change the color to your own background color */
+  box-shadow: 0 0 0 50px rgba(50, 95, 153, 0.974) inset; /* Change the color to your own background color */
   -webkit-text-fill-color: rgb(255, 255, 255);
 }
 
@@ -153,7 +153,7 @@ form input {
   border-radius: 8px;
   border-color: skyblue;
   /* font-family: Arial, Helvetica, sans-serif; */
-  background-color: rgb(50, 94, 153);
+  background-color: rgba(50, 95, 153, 0.974);
   display: block;
   padding: 15px 25px;
   /* box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.501); */
