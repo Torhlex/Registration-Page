@@ -4,7 +4,7 @@ body {
   background-blend-mode: soft-light;
   /* height: 500px; */
   background-size: cover;
-  background-position: center center;
+  background-position: center center !important;
   background-attachment: fixed;
   color: #fff;
   font-family: Verdana, Arial, Helvetica, sans-serif;
@@ -22,7 +22,7 @@ body {
   /* background-color: rgb(255, 255, 255); */
   /* border-radius: 20px; */
   background-size: cover;
-  background-position: center center;
+  background-position: center center !important;
   background-attachment: fixed;
   top: 12%;
   left: 36%;
